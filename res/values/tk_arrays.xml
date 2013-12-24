@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Halo -->
+    <string-array name="entries_halo_state">
+        <item>@string/halo_state_black</item>
+        <item>@string/halo_state_white</item>
+    </string-array>
+
+    <string-array name="values_halo_state" translatable="false">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="entries_halo_size">
+        <item>@string/halo_size_miniscule</item>
+        <item>@string/halo_size_small</item>
+        <item>@string/halo_size_default</item>
+        <item>@string/halo_size_large</item>
+        <item>@string/halo_size_gigantic</item>
+        <item>@string/halo_size_monster</item>
+    </string-array>
+    <string-array name="values_halo_size" translatable="false">
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+    </string-array>
+
+    <string-array name="entries_halo_notification_count">
+        <item>@string/halo_notification_count_none</item>
+        <item>@string/halo_notification_count_total</item>
+        <item>@string/halo_notification_count_individual</item>
+        <item>@string/halo_notification_count_both</item>
+    </string-array>
+
+    <string-array name="values_halo_notification_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="entries_halo_msgbox_animation">
+        <item>@string/halo_msgbox_animation_none</item>
+        <item>@string/halo_msgbox_animation_flip</item>
+    </string-array>
+
+    <string-array name="values_halo_msgbox_animation">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <!-- Active Display -->
+    <string-array name="ad_redisplay_entries" translatable="false">
+        <item>@string/ad_redisplay_never</item>
+        <item>@string/ad_redisplay_1m</item>
+        <item>@string/ad_redisplay_5m</item>
+        <item>@string/ad_redisplay_15m</item>
+        <item>@string/ad_redisplay_30m</item>
+        <item>@string/ad_redisplay_1h</item>
+        <item>@string/ad_redisplay_2h</item>
+        <item>@string/ad_redisplay_5h</item>
+    </string-array>
+
+    <string-array name="ad_redisplay_values" translatable="false">
+        <item>0</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>18000000</item>
+    </string-array>
+    
+    <string-array name="ad_threshold_entries" translatable="false">
+        <item>@string/ad_threshold_0s</item>
+        <item>@string/ad_threshold_1s</item>
+        <item>@string/ad_threshold_2s</item>
+        <item>@string/ad_threshold_3s</item>
+        <item>@string/ad_threshold_4s</item>
+        <item>@string/ad_threshold_5s</item>
+    </string-array>
+
+    <string-array name="ad_threshold_values" translatable="false">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>   
+
+    <string-array name="ad_timeout_entries" translatable="false">
+        <item>@string/ad_timeout_3s</item>
+        <item>@string/ad_timeout_5s</item>
+        <item>@string/ad_timeout_8s</item>
+        <item>@string/ad_timeout_10s</item>
+        <item>@string/ad_timeout_15s</item>
+        <item>@string/ad_timeout_25s</item>
+    </string-array>
+
+    <string-array name="ad_timeout_values" translatable="false">
+        <item>3000</item>
+        <item>5000</item>
+        <item>8000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>25000</item>
+    </string-array>
+ 
+    <string-array name="ad_pocket_mode_entries" translatable="false">
+        <item>@string/ad_pocket_mode_off</item>
+        <item>@string/ad_pocket_mode_notifications</item>
+        <item>@string/ad_pocket_mode_always</item>
+    </string-array>
+
+    <string-array name="ad_pocket_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Screen recorder video sizes -->
+    <string-array name="screen_recorder_video_sizes">
+        <item>@string/screen_recorder_size_240x400</item>
+        <item>@string/screen_recorder_size_360x640</item>
+        <item>@string/screen_recorder_size_480x800</item>
+        <item>@string/screen_recorder_size_480x854</item>
+        <item>@string/screen_recorder_size_540x960</item>
+        <item>@string/screen_recorder_size_600x1024</item>
+        <item>@string/screen_recorder_size_720x1280</item>
+    </string-array>
+
+    <!-- Screen recorder bitrates -->
+    <string-array name="screen_recorder_bitrate_entries">
+        <item>@string/screen_recorder_bitrate_title_100000</item>
+        <item>@string/screen_recorder_bitrate_title_250000</item>
+        <item>@string/screen_recorder_bitrate_title_500000</item>
+        <item>@string/screen_recorder_bitrate_title_1000000</item>
+        <item>@string/screen_recorder_bitrate_title_2000000</item>
+        <item>@string/screen_recorder_bitrate_title_3000000</item>
+        <item>@string/screen_recorder_bitrate_title_4000000</item>
+        <item>@string/screen_recorder_bitrate_title_5000000</item>
+        <item>@string/screen_recorder_bitrate_title_10000000</item>
+        <item>@string/screen_recorder_bitrate_title_20000000</item>
+        <item>@string/screen_recorder_bitrate_title_50000000</item>
+        <item>@string/screen_recorder_bitrate_title_100000000</item>
+    </string-array>
+    <string-array name="screen_recorder_bitrate_values">
+        <item>@string/screen_recorder_bitrate_100000</item>
+        <item>@string/screen_recorder_bitrate_250000</item>
+        <item>@string/screen_recorder_bitrate_500000</item>
+        <item>@string/screen_recorder_bitrate_1000000</item>
+        <item>@string/screen_recorder_bitrate_2000000</item>
+        <item>@string/screen_recorder_bitrate_3000000</item>
+        <item>@string/screen_recorder_bitrate_4000000</item>
+        <item>@string/screen_recorder_bitrate_5000000</item>
+        <item>@string/screen_recorder_bitrate_10000000</item>
+        <item>@string/screen_recorder_bitrate_20000000</item>
+        <item>@string/screen_recorder_bitrate_50000000</item>
+        <item>@string/screen_recorder_bitrate_100000000</item>
+    </string-array>
+</resources>

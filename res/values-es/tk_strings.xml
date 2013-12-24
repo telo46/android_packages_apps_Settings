@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- NavBar -->
+	<string name="navigation_bar_height">Altura de la NavBar</string>
+	
+	<!-- Halo -->
+    <string name="halo_settings_title">Halo</string>
+    <string name="halo_settings_summary">Ver o cambiar la configuración de HALO</string>
+    <string name="halo_behavior_title">Comportamiento de HALO</string>
+    <string name="halo_enabled_title">Habilitar HALO</string>
+    <string name="halo_enabled_summary">Habilitar/Deshabilitar HALO por completo</string>
+    <string name="halo_hide_title">Ocultar HALO</string>
+    <string name="halo_hide_summary">HALO aparecerá al llegar una notificación y se ocultará después de un tiempo</string>
+	<string name="halo_reversed_title">Invertir gestos HALO</string>
+    <string name="halo_reversed_summary">Arrastrar HALO con un toque simple e interactuar con él con un doble toque</string>
+    <string name="halo_state_title">Política de HALO</string>
+    <string name="halo_state_summary">Agrupar aplicaciones en la lista Negra/Blanca de HALO</string>
+    <string name="halo_state_black">Lista Negra</string>
+    <string name="halo_state_white">Lista Blanca</string>
+    <string name="halo_pause_title">Pausar aplicación activa</string>
+    <string name="halo_pause_summary">Al abrir una aplicación con HALO la aplicación que estaba en primer plano se pondrá en pausa</string>
+    <string name="halo_ninja_title">Modo ninja</string>
+    <string name="halo_ninja_summary">HALO desparecerá completamente cuando esté vacío</string>
+    <string name="halo_notification_msgbox_title">Activar pop-up del mensaje</string>
+    <string name="halo_notification_msgbox_summary">Muestra una caja de texto para las notificaciones entrantes</string>
+    <string name="halo_unlock_ping_title">Ping al desbloquear</string>
+    <string name="halo_unlock_ping_summary">HALO hará un destello cuando el dispositivo sea desbloqueado si has recibido nuevas notificaciones</string>
+
+    <string name="halo_size_title">Tamaño de HALO</string>
+    <string name="halo_size_summary">Define como de grande será HALO</string>
+    <string name="halo_size_miniscule">Minúsculo</string>
+    <string name="halo_size_small">Pequeño</string>
+    <string name="halo_size_default">Defecto</string>
+    <string name="halo_size_large">Largo</string>
+    <string name="halo_size_gigantic">Gigante</string>
+    <string name="halo_size_monster">Monstruo</string>
+
+    <string name="halo_notification_count_title">Contador de notificaciones</string>
+    <string name="halo_notification_count_summary">Muestra el contador de notificaciones en HALO</string>
+    <string name="halo_notification_count_none">Ninguna</string>
+    <string name="halo_notification_count_total">Total</string>
+    <string name="halo_notification_count_individual">Por app</string>
+    <string name="halo_notification_count_both">Ambos</string>
+
+    <string name="halo_msgbox_animation_title">Animación de la caja de texto</string>
+    <string name="halo_msgbox_animation_summary">Animación de la caja de texto para notificaciones entrantes</string>
+    <string name="halo_msgbox_animation_none">Ninguna</string>
+    <string name="halo_msgbox_animation_flip">Voltear</string>
+
+    <string name="app_halo_label_black">Lista negra de HALO</string>
+    <string name="app_halo_label_white">Lista blanca de HALO</string>
+    
+     <!-- Active display settings -->
+    <string name="ad_settings_title">Notificación activas</string>
+    <string name="ad_settings_summary">Cambiar la configuración de notificaión activa</string>
+    <string name="ad_enable_title">Habilitar</string>
+    <string name="ad_enable_summary_on">Notificación activa habilitada</string>
+    <string name="ad_enable_summary_off">Notificación activa deshabilitada</string>
+    <string name="ad_text_title">Texto de notificación</string>
+    <string name="ad_text_summary">Mostrar el texto de la notificación alrededor del anillo.</string>
+    <string name="ad_all_notifications_title">Todas las notificaciones</string>
+    <string name="ad_all_notifications_summary">Mostrar todas las notificaciones incluidas las notificaciones en curso, no eliminables.</string>
+    <string name="ad_hide_low_priority_title">Ocultar baja prioridad</string>
+    <string name="ad_hide_low_priority_title">Ocultar baja prioridad</string>
+    <string name="ad_hide_low_priority_summary">Ocultar notificaciones de baja prioridad, como los de Google Now.</string>
+    <string name="ad_pocket_mode_title">Modo bolsillo</string>
+    <string name="ad_pocket_mode_summary">Muestra las notificaciones activas si el dispositivo se encuentra fuera del bolsillo.</string>
+    <string name="ad_redisplay_title">Volver a mostrar notificaciones</string>
+    <string name="ad_timeout_title">Tiempo de apagado</string>
+    <string name="ad_threshold_title">Umbral de proximidad</string>
+    <string name="ad_brightness_title">Nivel de brillo</string>
+    <string name="ad_customizations_title">Personalizaciones</string>
+    <string name="ad_excluded_apps_title">Excluir aplicaciones</string>
+    <string name="ad_excluded_apps_summary">Aplicaciones excluidas, no se mostrarán como notificaciones activas.</string>
+    <string name="ad_show_date_title">Mostrar hora</string>
+    <string name="ad_show_ampm_title">Mostrar AM/PM</string>
+    <string name="ad_sunlight_mode_title">Modo luz del sol</string>
+    <string name="ad_brightness_summary">Solo funciona sin brillo automatico.</string>
+    <string name="ad_show_date_summary">Mostrar la fecha sobre el reloj</string>
+    <string name="ad_show_ampm_summary">Mostrar indicador AM / PM al lado de la hora cuando utilice formato de 12 horas.</string>
+    <string name="ad_sunlight_mode_summary">Invierte los colores en áreas con luz brillante como la luz solar directa.</string>
+    <string name="ad_turnoff_mode_title">Apagar la pantalla</string>
+    <string name="ad_turnoff_mode_summary">Apagar la pantalla si el dispositivo se encuentra en el bolsillo y se encendio por culpa de Notificaciones activas.</string>
+    <string name="ad_redisplay_never">Nunca</string>
+    <string name="ad_redisplay_1m">1 minuto</string>
+    <string name="ad_redisplay_5m">5 minutos</string>
+    <string name="ad_redisplay_15m">15 minutos</string>
+    <string name="ad_redisplay_30m">30 minutos</string>
+    <string name="ad_redisplay_1h">1 hora</string>
+    <string name="ad_redisplay_2h">2 horas</string>
+    <string name="ad_redisplay_5h">5 horas</string>
+    <string name="ad_timeout_3s">3 segundos</string>
+    <string name="ad_timeout_5s">5 segundos</string>
+    <string name="ad_timeout_8s">8 segundos</string>
+    <string name="ad_timeout_10s">10 segundos</string>
+    <string name="ad_timeout_15s">15 segundos</string>
+    <string name="ad_timeout_25s">25 segundos</string>
+    <string name="ad_threshold_0s">Instantaneo</string>
+    <string name="ad_threshold_1s">1 segundo</string>
+    <string name="ad_threshold_2s">2 segundos</string>
+    <string name="ad_threshold_3s">3 segundos</string>
+    <string name="ad_threshold_4s">4 segundos</string>
+    <string name="ad_threshold_5s">5 segundos</string>
+    <string name="ad_pocket_mode_off">Apagado</string>
+    <string name="ad_pocket_mode_notifications">Solo notificaciones</string>
+    <string name="ad_pocket_mode_always">Siempre</string>
+    <string name="bars_and_menus_category_recent_panel_title" >Menú recientes</string>
+    
+    <!-- Screen recorder -->
+    <string name="power_menu_screenrecord_title">Grabador de pantalla</string>
+    <string name="screen_recorder_title">Grabador de pantalla</string>
+    <string name="screen_recorder_summary">Ajustes de la grabación de pantalla.</string>
+    <string name="screen_recorder_video_dimensions_title">Tamaño de video</string>
+</resources>

@@ -41,13 +41,13 @@
         </PreferenceScreen>
 
         <!-- CyanogenMod Updates -->
-        <PreferenceScreen android:key="cm_updates"
+        <!-- <PreferenceScreen android:key="cm_updates"
                 android:title="@string/cmupdate_settings_title" 
                 android:summary="@string/cmupdate_settings_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.cyanogenmod.updater"
                     android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
-        </PreferenceScreen>
+        </PreferenceScreen> -->
 
         <!-- Anonymous statistics - (CMStats) -->
         <PreferenceScreen
@@ -171,6 +171,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mod_version"
                 android:summary="@string/mod_version_default" />
+                
+        <!-- TeloKang version -->
+        <Preference android:key="telo_mod_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/telo_mod_version"
+                android:summary="@string/telo_mod_version_default" />
 
         <!-- Mod build date -->
         <Preference android:key="build_date"

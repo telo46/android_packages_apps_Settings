@@ -47,4 +47,17 @@
             android:title="@string/lockscreen_enable_widgets_title" />
 
     </PreferenceCategory>
+    
+		<PreferenceCategory
+			android:title="@string/ad_settings_title">
+
+	  <PreferenceScreen
+			android:key="active_display"
+			android:fragment="com.android.settings.telokang.activedisplay.ActiveDisplaySettings"
+			android:title="@string/ad_settings_title"
+			android:summary="@string/ad_settings_summary">
+			</PreferenceScreen>
+
+		</PreferenceCategory>
+ 
 </PreferenceScreen>
